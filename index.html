@@ -2,63 +2,176 @@
 <html>
   <head>
     <title>Be a Goose</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <style>
       * {
         box-sizing: border-box;
       }
 
+      .pitch {
+        padding: 200px 0;
+        text-align: center;
+      }
+
+      .breakdown {
+        padding: 25px;
+      }
+
+      .breakdown .fa-solid {
+        font-size: 72px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+      }
+
+      .breakdown h3 {
+        text-align: center;
+      }
+
       .testimonials {
         background-color: green;
-        padding: 100px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        padding: 50px;
       }
 
       .testimonial {
-        width: 33.33333%;
-        flex-grow: 1;
-        padding: 25px;
+        padding: 50px;
       }
     </style>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="">About Us</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="">About Us</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-    <main>
-      <section class="pitch">
-        <h1>Become a Real Goose</h1>
+    <main class="container-fluid">
+      <section class="pitch row">
+        <div class="col">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p class="lead">Looking for a new opportunity?</p>
+                <h1 class="display-1">Become a Real Goose</h1>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="breakdown"></section>
-      <section class="testimonials">
-        <div class="testimonial">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
-            Vestibulum pretium nec magna ac pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-            Sed eu accumsan lorem.
-          </p>
-          <div>Lorem Ipsum</div>
+      <section class="breakdown row">
+        <div class="col">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="breakdown">
+                  <i class="fa-solid fa-bomb"></i>
+                  <h3>Honking</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="breakdown">
+                  <i class="fa-solid fa-bomb"></i>
+                  <h3>Landing Gracefully in Water</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="breakdown">
+                  <i class="fa-solid fa-bomb"></i>
+                  <h3>Flying a round</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="breakdown">
+                  <i class="fa-solid fa-bomb"></i>
+                  <h3>Nibbling Bread</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="breakdown">
+                  <i class="fa-solid fa-bomb"></i>
+                  <h3>Hissing</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="testimonial">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
-            Vestibulum pretium nec magna ac pharetra.
-          </p>
-          <div>Lorem Ipsum</div>
-        </div>
-        <div class="testimonial">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium nec magna ac pharetra. Interdum
-            et malesuada fames ac ante ipsum primis in faucibus. Sed eu accumsan lorem.
-          </p>
-          <div>Ipsum Lorem</div>
+      </section>
+      <section class="testimonials row">
+        <div class="col">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="testimonial">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                  <div>Lorem Ipsum</div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="testimonial">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                  <div>Lorem Ipsum</div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="testimonial">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+                    Vestibulum pretium nec magna ac pharetra.
+                  </p>
+                  <div>Lorem Ipsum</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
