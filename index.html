@@ -2,7 +2,25 @@
 <html>
   <head>
     <title>Be a Goose</title>
-    <style></style>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .testimonials {
+        background-color: green;
+        padding: 100px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .testimonial {
+        width: 33.33333%;
+        flex-grow: 1;
+        padding: 25px;
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -19,8 +37,31 @@
         <h1>Become a Real Goose</h1>
       </section>
       <section class="breakdown"></section>
-      <section class="testimonials"></section>
+      <section class="testimonials">
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+            Vestibulum pretium nec magna ac pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            Sed eu accumsan lorem.
+          </p>
+          <div>Lorem Ipsum</div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget fringilla augue, ac tristique eros.
+            Vestibulum pretium nec magna ac pharetra.
+          </p>
+          <div>Lorem Ipsum</div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium nec magna ac pharetra. Interdum
+            et malesuada fames ac ante ipsum primis in faucibus. Sed eu accumsan lorem.
+          </p>
+          <div>Ipsum Lorem</div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>Replace this text with your own message</footer>
   </body>
 </html>
